@@ -26,3 +26,8 @@ There are 3 options:
 Transfer money: transfer to – enter username, amount – amount.
 Request a loan: enter amount.
 Close account: confirm user – enter username and the corresponding password.
+
+
+#### The App
+
+You can check the working app by clicking <a href='https://this-jsx.github.io/bankist/'>here</a>.
