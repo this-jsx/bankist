@@ -364,3 +364,15 @@ btnSort.addEventListener('click', function (e) {
 
   sorted = !sorted;
 });
+
+// MODAL
+const modal = document.querySelector('.modal')
+const overlay = document.querySelector('.overlay')
+const closeModalButton = document.querySelector('.modal__btn')
+
+function closeModal() {
+  modal.classList.add('hidden')
+  overlay.classList.add('hidden')
+}
+
+closeModalButton.addEventListener('click', closeModal)

@@ -295,3 +295,69 @@ h2 {
 .timer {
   font-weight: 600;
 }
+
+/* MODAL & OVERLAY */
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 2rem 4rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.modal__close {
+  text-align: right;
+}
+
+.modal__btn {
+  border: 0;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.modal__title {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.modal__intro {
+  margin: 2rem 0;
+}
+
+.modal__data, .modal__options {
+  color: #39b385;
+}
+
+.modal__text {
+  margin: 1rem 0;
+}
+
+.modal__list-acc, .modal__list-options {
+  margin-left: 1rem;
+}
+
+.modal__more {
+  margin: 1rem 0;
+}
+
+.hidden {
+  display: none;
+}
